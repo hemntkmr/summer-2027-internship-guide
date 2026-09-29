@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Build your resume · Summer 2027 Internship Guide</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="resume.html">
+  <div class="overlay" aria-hidden="true"></div>
+  <div class="mobile-bar">
+    <button type="button" class="menu-btn" aria-label="Open menu">&#9776;</button>
+    <div class="title">Summer 2027 Guide</div>
+  </div>
+  <div class="layout">
+    <nav class="sidebar" aria-label="Guide sections">
+      <div class="sidebar-brand">
+        <p class="logo">Purdue · Robotics · SDE</p>
+        <h1>Summer 2027 Internship Prep</h1>
+        <p>8–10 hr/week · grades first · Seattle-first</p>
+      </div>
+      <p class="nav-label">Follow in order</p>
+      <ul class="nav-list">
+<li><a href="index.html"><span class="nav-num">1</span><span>Start here</span></a></li>
+<li><a href="talk-with-dad.html"><span class="nav-num">2</span><span>Talk with Dad</span></a></li>
+<li><a href="how-we-track.html"><span class="nav-num">3</span><span>How we track</span></a></li>
+<li><a href="resume.html" class="active"><span class="nav-num">4</span><span>Build your resume</span></a></li>
+<li><a href="week-by-week.html"><span class="nav-num">5</span><span>Week-by-week recipe</span></a></li>
+<li><a href="applications.html"><span class="nav-num">6</span><span>Applications & deadlines</span></a></li>
+<li><a href="interview-forums.html"><span class="nav-num">7</span><span>Interview forums</span></a></li>
+<li><a href="timeline.html"><span class="nav-num">8</span><span>Gantt / timeline</span></a></li>
+<li><a href="checklist.html"><span class="nav-num">9</span><span>Checklist / done-when</span></a></li>
+      </ul>
+    </nav>
+    <main class="main">
+      <header class="page-header">
+        <p class="eyebrow">04 · One page</p>
+        <h1>Build your resume</h1>
+        <p class="lede">How many projects, structure, bullet style, project ideas — invent your content, borrow only the shape.</p>
+      </header>
+
+      <div class="callout success">
+        <span class="label">First internship shape</span>
+        <p>You don’t need five jobs. You need a <strong>one-page</strong> resume: education, maybe one Experience line (EPICS / research), and <strong>two solid projects</strong> (hard max 3). Every strong bullet = what you built + tools + a number. Copy the <em>shape</em> from strong Purdue SDE résumés — never their sentences, metrics, or project names.</p>
+      </div>
+
+      <h2>How many projects</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Count</th><th>When</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td><strong>2 (recommended)</strong></td><td>Default</td><td>Recruiters skim 6–10 seconds. Two deep projects beat five shallow labs.</td></tr>
+            <tr><td><strong>3</strong></td><td>All finished, demoable, different axes</td><td>A third only helps if it adds a new skill signal.</td></tr>
+            <tr><td><strong>1</strong></td><td>Plus real Experience lines</td><td>One flagship + EPICS/research often beats three solo hacks.</td></tr>
+            <tr><td><strong>4+</strong></td><td>Almost never</td><td>Reads as class-lab dumping.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Structure (mirror the skeleton, invent the content)</h2>
+      <div class="card">
+        <pre style="margin:0;white-space:pre-wrap;font-family:var(--mono);font-size:0.82rem;line-height:1.45;color:var(--text-muted)">NAME
+email | phone | linkedin.com/in/... | github.com/... | (optional portfolio)
+
+EDUCATION
+Purdue University — B.S. Robotics Engineering — Expected May 20XX
+  Minors · GPA if ≥ ~3.5 · 4–6 relevant courses
+
+EXPERIENCE  (internships, research, EPICS, Data Mine, TA — newest first)
+  • 2–4 bullets each
+
+PROJECTS  (if Experience is thin; 2–3 max)
+  Project Name — key stack — Dates
+  • 2–3 bullets
+
+SKILLS
+  Languages: …
+  Frameworks / Cloud / Tools: …  (keywords only; no “proficient”)</pre>
+      </div>
+      <p><strong>Ordering:</strong> If you have EPICS / lab / internship → lead with Experience. If not → Projects under Education until Experience fills in.</p>
+
+      <h2>Bullet style (the real skill)</h2>
+      <div class="callout info">
+        <p style="margin:0"><strong>Verb + what you built/changed + with which tech + so that what improved (number)</strong></p>
+      </div>
+      <ul>
+        <li><strong>Bad:</strong> “Worked on a robotics navigation project using ROS.”</li>
+        <li><strong>Better:</strong> “Implemented ROS 2 Nav2 stack in Gazebo for a differential-drive robot, cutting manual teleop demos from 10 minutes to a repeatable 60-second scripted run.”</li>
+        <li><strong>Bad:</strong> “Used AWS for a class project.”</li>
+        <li><strong>Better:</strong> “Deployed a Python API on AWS Lambda behind API Gateway with S3 artifact storage, handling 200 test requests/min in load checks.”</li>
+      </ul>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Do</th><th>Don’t</th></tr></thead>
+          <tbody>
+            <tr><td>Start with Built, Cut, Shipped, Automated, Designed</td><td>“Responsible for” / “Helped with”</td></tr>
+            <tr><td>Name 1–2 concrete technologies</td><td>Dump eight frameworks in one bullet</td></tr>
+            <tr><td>One real metric (%, time, users, errors)</td><td>Invent fake precision</td></tr>
+            <tr><td>One idea per bullet</td><td>Paragraphs</td></tr>
+            <tr><td>Past tense for finished work</td><td>Mixing “ing” everywhere</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Project ideas (pick primary + secondary)</h2>
+      <h3>Campus / utility</h3>
+      <ul>
+        <li>Course / exam conflict helper · study-group matcher · dining/bus wait-time dashboard (public data only)</li>
+      </ul>
+      <h3>Cloud pipelines (Amazon/Microsoft language)</h3>
+      <ul>
+        <li>Photo/log ingest: S3 → Lambda → DynamoDB/Postgres → status API</li>
+        <li>CI notifier (GitHub Action → Discord/Slack)</li>
+        <li>Batch CSV → cleaned Parquet on S3</li>
+      </ul>
+      <h3>LLM / agent tools (build original)</h3>
+      <ul>
+        <li>Syllabus Q&amp;A with RAG + page citations</li>
+        <li>Campus FAQ agent that <em>calls tools</em></li>
+        <li>Code-review helper for CS 180-sized repos</li>
+      </ul>
+      <h3>Robotics-friendly (frame as software)</h3>
+      <ul>
+        <li><strong>ROS 2 + Gazebo Nav2</strong> with scripted mission + demo</li>
+        <li><strong>YOLO vision pipeline</strong> with mAP / precision on your set</li>
+        <li>Sim-to-metrics logger → S3 + web chart (bridges robotics ↔ cloud SDE)</li>
+      </ul>
+      <p><strong>Selection rule:</strong> Primary = interview story. Secondary = different axis (e.g. ROS + thin AWS). Skip anything you can’t demo. Lead with software nouns for SDE recruiters.</p>
+
+      <h2>What else belongs</h2>
+      <ul>
+        <li><strong>High:</strong> EPICS, research, Data Mine, SURF, TA, shipped hackathon, merged OSS PRs</li>
+        <li><strong>Medium:</strong> 4–6 course names, GPA if ≥ ~3.5, technical org leadership with a software outcome</li>
+        <li><strong>Skip:</strong> Soft clubs with no software, high school (usually), Objective paragraph, colorful ATS-breaking templates</li>
+      </ul>
+
+      <h2>First draft workflow (90–120 min)</h2>
+      <ol>
+        <li>Dump everything into a messy doc.</li>
+        <li>Keep only items that prove coding + ownership.</li>
+        <li>Force the skeleton into one page.</li>
+        <li>Rewrite every bullet with Verb + Tech + Metric.</li>
+        <li>Export PDF; put link in the father–son tracker.</li>
+        <li>Align LinkedIn headline/About with the same story.</li>
+        <li>Tailor one line of Skills order per application.</li>
+      </ol>
+
+      <div class="callout warn">
+        <span class="label">Anti-plagiarism</span>
+        <p>Read each bullet aloud. If it could appear on someone else’s LinkedIn from the Purdue pack, rewrite until only <em>you</em> could claim it. Inspiration ≠ plagiarism. Pattern library only — do not invent LinkedIn people beyond what’s in the source walkthrough.</p>
+      </div>
+
+      <h2>Resume checklist</h2>
+      <div class="progress-bar-wrap">
+        <div class="meta"><span>Before you apply</span><span data-progress-label="resume.html">0 / 0</span></div>
+        <div class="progress-track"><div class="progress-fill" data-progress-fill="resume.html"></div></div>
+      </div>
+      <div class="reset-row"><button type="button" class="btn-ghost" data-reset-page>Reset this page</button></div>
+      <ul class="checklist">
+        <li><input type="checkbox" data-id="r1" /><span class="check-text">One page, readable font (~10–11 pt)</span></li>
+        <li><input type="checkbox" data-id="r2" /><span class="check-text">2 projects (or 1 project + ≥1 Experience line)</span></li>
+        <li><input type="checkbox" data-id="r3" /><span class="check-text">≥3 bullets with real numbers I can defend</span></li>
+        <li><input type="checkbox" data-id="r4" /><span class="check-text">GitHub (or live demo) in header and on each project</span></li>
+        <li><input type="checkbox" data-id="r5" /><span class="check-text">LinkedIn headline matches (“Seeking Summer 2027 SDE”)</span></li>
+        <li><input type="checkbox" data-id="r6" /><span class="check-text">Skills row includes languages I can interview in</span></li>
+        <li><input type="checkbox" data-id="r7" /><span class="check-text">No copied sentences from public résumés</span></li>
+        <li><input type="checkbox" data-id="r8" /><span class="check-text">I can explain my flagship in 60 seconds (Verb + Tech + Metric)</span></li>
+      </ul>
+
+      <nav class="footer-nav" aria-label="Section navigation">
+        <a href="how-we-track.html">← How we track</a>
+        <a href="week-by-week.html">Week-by-week recipe →</a>
+      </nav>
+      <p class="site-footer">Grounded in your father–son plan docs. Deadlines and job IDs from source files only — re-check employer careers pages the week you apply. Progress checkboxes save in this browser (localStorage).</p>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
